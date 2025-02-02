@@ -10,7 +10,7 @@ import { connect } from 'cloudflare:sockets';
 
 // Generate your own UUID using the following command in PowerShell:
 // Powershell -NoExit -Command "[guid]::NewGuid()"
-let userID = '88deb2d4-96e2-448b-b9c6-6e2a5f26fc8f';
+let userID = '8b5152c3-896f-40c6-96c1-16c578e4b150';
 
 // Proxy IPs to choose from
 let proxyIPs = [
@@ -20,7 +20,7 @@ let proxyIPs = [
 // Randomly select a proxy IP from the list
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 let proxyPort = 443;
-let proxyIpTxt = atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FtY2x1YnMvYW0tY2YtdHVubmVsL21haW4vcHJveHlpcC50eHQ=');
+let proxyIpTxt = atob('https://raw.githubusercontent.com/aidzyni/1212/refs/heads/main/.github/workflows/ipv4.txt');
 
 // Setting the socks5 will ignore proxyIP
 // Example:  user:pass@host:port  or  host:port
@@ -37,10 +37,10 @@ let ipUrl = [
 
 ];
 let ipUrlTxt = [
-	atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FtY2x1YnMvYW0tY2YtdHVubmVsL21haW4vaXB2NC50eHQ=')
+	atob('https://raw.githubusercontent.com/aidzyni/1212/refs/heads/main/.github/workflows/ipv4.txt')
 ];
 let ipUrlCsv = [
-	// atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FtY2x1YnMvYW0tY2YtdHVubmVsL21haW4vaXB2NC5jc3Y=')
+	// atob('https://github.com/aidzyni/alexus/blob/main/ipv4.')
 ];
 // Preferred addresses with optional TLS subscription
 let ipLocal = [
