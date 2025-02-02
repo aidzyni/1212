@@ -35,7 +35,6 @@ let dohURL = 'https://sky.rethinkdns.com/1:-Pf_____9_8A_AMAIgE8kMABVDDmKOHTAKg='
 // Preferred address API interface
 let ipUrlTxt = [
 	'https://raw.githubusercontent.com/aidzyni/1212/refs/heads/main/.github/workflows/ipv4.txt',
-	// 'https://github.com/aidzyni/alexus/blob/main/ipv6.txt'
 ];
 let ipUrlCsv = [
 	// 'https://github.com/aidzyni/alexus/blob/main/ipv4.csv'
